@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1:hover {
+    color: blue
+}
+
+h1:active {
+    color: rgb(252, 249, 249);
+}
+
+body { 
+    font-family: 'Tahoma', Times, serif;
+    background-color: white
+}
+
+h1 { 
+    text-transform: uppercase; 
+    text-align: center;
+}
+
+.tarjeta {
+    width: 300px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(18, 1, 1, 0.1);
+    background-color: rgba(29, 99, 106, 0.103);
+}
+
+#imagen-perfil {
+    width: 100%;
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    display: block;
+    margin:auto;
+    border-radius: 5%;
+}
+
+.tarjeta-nombre {
+    font:size 30px;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.tarjeta-descripcion { 
+    font-size: 20px;
+    color: black;
+    text-align:center;
+}
+
+.tarjeta-boton {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top:20px;
+    color: rgb(252, 252, 252);
+    background-color: #007bff;
+    text-align:center;
+    border: none;
+    border-radius: 5px;
+}
+
+.tarjeta-boton:hover {
+    background-color: #073464;
+}
+
+.tarjeta-boton:active {
+    background-color: #004085;
+}
